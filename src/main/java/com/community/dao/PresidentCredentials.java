@@ -2,7 +2,7 @@ package com.community.dao;
 
 public enum PresidentCredentials {
 
-    PRESIDENT("president_url", "president_password");
+    PRESIDENT("president_username", "president_password");
 
     private final String email;
     private final String password;

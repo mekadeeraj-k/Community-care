@@ -46,9 +46,9 @@ public class Configs {
 	public DataSource dataSource() {
 		DriverManagerDataSource dmds = new DriverManagerDataSource();
 		dmds.setDriverClassName("com.mysql.cj.jdbc.Driver");
-		dmds.setUrl("your_url");
-		dmds.setUsername("your_username");
-		dmds.setPassword("your_password");
+		dmds.setUrl("your_dbUrl");
+		dmds.setUsername("your_dbUsername");
+		dmds.setPassword("your_dbPassword");
 		return dmds;
 	}
 	
